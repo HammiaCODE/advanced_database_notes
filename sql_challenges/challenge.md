@@ -1,4 +1,13 @@
---PART 1
+
+### `sql_challenges/challenge-01/README.md`
+
+```md
+# SQL Challenge 01 – Aggregations part 1
+
+## Problem
+Practice of using aggregations in SQLBolt
+
+```sql
 SELECT MAX(Years_employed) FROM employees;
 
 SELECT Role, AVG(Years_employed) AS Years_Employed_AVG
@@ -23,7 +32,13 @@ FROM employees
 WHERE Role=="Engineer" 
 GROUP BY Role;
 
--- Challenge
+```md
+# SQL Challenge 02 – Aggregations part 2
+
+## Problem
+Aggregations in Oracle SQL
+
+```sql
 select COUNT(distinct shape) AS number_of_shapes,
        STDDEV(unique weight) AS distinct_weight_stddev
 from   bricks;
@@ -36,5 +51,4 @@ select shape, sum ( weight )
 from   bricks
 group  by shape
 HAVING SUM(weight) < 4;
-
 
