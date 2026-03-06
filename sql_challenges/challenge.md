@@ -41,7 +41,15 @@ from   bricks b
 order  by weight;
 
 
-
+with totals as (
+  select b.*,
+         sum ( weight ) over (partition by shape) weight_per_shape,
+         sum ( weight ) over ( order by brick_id) running_weight_by_id
+  from   bricks b
+)
+select * from totals
+where  weight_per_shape >4 AND running_weight_by_id >4;
+order  by brick_id
 
 
 ```md
