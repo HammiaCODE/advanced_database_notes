@@ -1,8 +1,8 @@
 
-### `sql_challenges/challenge-02/README.md`
+### `sql_challenges/challenge-03/README.md`
 
 ```md
-# SQL Challenge 02 - Aggregation
+# SQL Challenge 03 - Aggregation
 
 ## Problem
 Practice of using aggregations in SQLBolt
