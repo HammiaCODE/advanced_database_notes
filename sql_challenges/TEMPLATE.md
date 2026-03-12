@@ -2,7 +2,7 @@
 ### `sql_challenges/challenge-01/README.md`
 
 ```md
-# SQL Challenge 01 – Index Usage
+# SQL Challenge 04 – Index Usage
 
 ## Problem
 Given a table with 10M rows, improve query performance.
