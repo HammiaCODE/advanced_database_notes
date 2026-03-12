@@ -41,3 +41,4 @@ select * from totals
 where  weight_per_shape >4 AND running_weight_by_id >4;
 order  by brick_id
 
+
