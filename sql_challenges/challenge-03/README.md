@@ -22,4 +22,5 @@ CREATE TABLE orders (
 │   │   ├── solution.sql
 │   │   └── notes.md
 │   ├── challenge-02/
+
 │   │   └── README.md
