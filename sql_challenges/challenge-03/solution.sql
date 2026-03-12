@@ -35,4 +35,5 @@ GROUP BY shape;
 select shape, sum ( weight )
 from   bricks
 group  by shape
+
 HAVING SUM(weight) < 4;
